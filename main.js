@@ -9,6 +9,12 @@ var app = new Vue({
       prefecture: 'Tokyo'
     },
     colors: ['Red', 'Green', 'Blue'],
-    toggle: false
+    toggle: false,
+    now: ''
+  },
+  methods: {
+    onclick: function(){
+      alert('onclick')
+    }
   }
 })
