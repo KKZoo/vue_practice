@@ -17,6 +17,18 @@
 
       <p v-if="toggle">Hello</p>
       <p v-show="toggle">Hello</p>
+
+      <ol>
+        <li v-for="color in colors">{{ color }}</li>
+      </ol>
+
+      <ul>
+        <li v-for="value in user">{{ value }}</li>
+      </ul>
+
+      <ul>
+        <li v-for="(value, key) in user">{{ value }} : {{key}}</li>
+      </ul>
     </div>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
