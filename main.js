@@ -2,6 +2,7 @@ var app = new Vue({
   el: '#app',
   data:{
     message: 'Hello Vue.js!',
+    greet: 'Hello v-model',
     count:10,
     user: {
       lastName: 'Yamada',
