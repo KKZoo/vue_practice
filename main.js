@@ -8,6 +8,7 @@ var app = new Vue({
       firstName: 'Taro',
       prefecture: 'Tokyo'
     },
-    colors: ['Red', 'Green', 'Blue']
+    colors: ['Red', 'Green', 'Blue'],
+    toggle: false
   }
 })
